@@ -31,9 +31,6 @@ body {
 }
 
 #sidebar {
-    display: flex;
-    flex-direction: column;
-
     gap: 0.5rem;
 
     padding: 0.5rem;
@@ -41,6 +38,14 @@ body {
     color: white;
     background-color: rgb(37, 37, 37);
 }
+#sidebar-sticky {
+    display: flex;
+    flex-direction: column;
+
+    position: sticky;
+    top: 0;
+}
+
 #content {
     flex: 1;
 
