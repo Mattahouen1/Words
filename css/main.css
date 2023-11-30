@@ -32,7 +32,9 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding: 1rem;
+    gap: 0.5rem;
+
+    padding: 0.5rem;
 
     color: white;
     background-color: rgb(37, 37, 37);
@@ -63,7 +65,7 @@ body {
 }
 
 .simple-button {
-    background-color: dodgerblue;
+    background-color: rgb(51, 51, 51);
     color: white;
 
     padding: 1rem;
@@ -71,5 +73,17 @@ body {
     transition: background-color 0.25s;
 }
 .simple-button:hover {
-    background-color: rgb(108, 182, 255);
+    background-color: dodgerblue;
+}
+
+
+.simple-button-basic {
+    color: white;
+
+    padding: 1rem;
+
+    transition: background-color 0.25s;
+}
+.simple-button-basic:hover {
+    color: dodgerblue;
 }
