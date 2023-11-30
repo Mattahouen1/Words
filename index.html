@@ -3,10 +3,14 @@
     <head>
         <link rel="stylesheet" href="./css/main.css">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+        <script src="./scripts/main.js"></script>
     </head>
     <body>
         <div id="header">
-            <h1>Words</h1>
+            <div class="text-large">Words</div>
             <div>Some catchy phrase</div>
         </div>
         <div id="body">
@@ -18,8 +22,11 @@
                 <a href="./hard.html"><div class="simple-button-basic"><i class="ph ph-arrows-clockwise"></i> Switch to Hard</div></a>
             </div>
             <div id="content">
-                <div>Normal Content</div>
+                <!-- This will be loaded in by markedjs -->
             </div>
+            <script>
+                loadPage('./normal.md');
+            </script>
         </div>
         <div id="footer">
             <div>Copyright Matthouen &copy; 2023</div>

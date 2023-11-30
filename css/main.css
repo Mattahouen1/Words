@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-
     font-family: Arial;
 
     text-decoration: none;
@@ -12,6 +10,8 @@ body {
 
     height: 100vh;
     min-height: 100vh;
+
+    margin: 0;
 }
 
 #header {
@@ -86,4 +86,9 @@ body {
 }
 .simple-button-basic:hover {
     color: dodgerblue;
+}
+
+.text-large {
+    font-size: 2rem;
+    font-weight: 600;
 }
