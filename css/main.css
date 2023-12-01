@@ -31,6 +31,8 @@ body {
 }
 
 #sidebar {
+    display: block;
+    
     gap: 0.5rem;
 
     padding: 0.5rem;
@@ -98,4 +100,47 @@ body {
 .text-large {
     font-size: 2rem;
     font-weight: 600;
+}
+
+#sidebar-mobile {
+    display: none;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+#mobile-burger {
+    padding: 0;
+    border: 0;
+
+    background-color: transparent;
+    color: white;
+
+    font-size: 2rem;
+}
+#mobile-burger:hover {
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 800px) {
+    #sidebar {
+        display: none;
+    }
+    #sidebar-sticky {
+        width: 100%;
+        align-items: center;
+        position: unset;
+    }
+    #sidebar-mobile {
+        display: flex;
+    }
+    #body {
+        flex-direction: column;
+    }
+    .simple-button {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
 }

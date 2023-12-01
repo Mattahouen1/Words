@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="./css/main.css">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -12,16 +15,21 @@
     </head>
     <body>
         <div id="header">
-            <div class="text-large">Words</div>
-            <div>Some catchy phrase</div>
+            <div id="logo">
+                <div class="text-large">Words</div>
+                <div>Some catchy phrase</div>
+            </div>
+            <div id="sidebar-mobile">
+                <button id="mobile-burger" onclick="toggleSidebar()"><i class="ph ph-list"></i></button>
+            </div>
         </div>
         <div id="body">
             <div id="sidebar">
                 <div id="sidebar-sticky">
-                    <a href="#information"><div class="simple-button">Information</div></a>
-                    <a href="#rules"><div class="simple-button">Rules</div></a>
-                    <a href="#examples"><div class="simple-button">Examples</div></a>
-                    <a href="#accessibility"><div class="simple-button">Accessibility</div></a>
+                    <a class="simple-button" href="#information"><div>Information</div></a>
+                    <a class="simple-button" href="#rules"><div>Rules</div></a>
+                    <a class="simple-button" href="#examples"><div>Examples</div></a>
+                    <a class="simple-button" href="#accessibility"><div>Accessibility</div></a>
                     <a href="./index.html"><div class="simple-button-basic"><i class="ph ph-arrows-clockwise"></i> Switch to Normal</div></a>
                 </div>
             </div>
