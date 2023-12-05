@@ -13,8 +13,15 @@ In this fast paced vocabulary game, you put your vocabulary to the test against 
 - Words must be spelt correctly in order to win. Any player can challenge a would-be victors spelling by showing them a thumbs down. If the accusation is correct, the accuser steals the points and claims that word as their own, with the victory. If the accusation was incorrect, the accuser loses points equal to the value of the accused word.
 - Victorious words lock out their final letters. Meaning, if a word ends in y, the next 2 winning words cannot end in y.
 - First to 50 wins.
-## Examples
-Some examples or images:
-![Test Image](https://cdn.discordapp.com/attachments/1148765435039330334/1179681026751086663/image.png?ex=657aaa92&is=65683592&hm=ffdec3162b6aaa689cf683d73cf2a963a67a03e938702dbcbed69adb742c7d6c&) 
+## Pictures
+![404904182_344812068164626_4969953720081239141_n](https://github.com/Mattahouen1/Words/assets/152474434/a6931280-1cde-4c5c-b83e-122c083718ae)
+
+![373482978_7256241127728416_1348619912618838087_n](https://github.com/Mattahouen1/Words/assets/152474434/1d19f930-a91a-46ab-8dcc-bd33a0027fb3)
+![405260402_737467174912070_3319209339918302056_n](https://github.com/Mattahouen1/Words/assets/152474434/cca1d434-3df8-49b6-b673-16c2faad19b8)
+
+
+
+(https://github.com/Mattahouen1/Words/assets/152474434/42f562ed-df7c-4f62-9d8d-bae0265ed36d)
+
 ## Accessibility
 If any players suffer from motor or visual impairments, that player must announce and spell aloud their word first when it becomes time to show your words.`
