@@ -20,8 +20,5 @@ In this fast paced vocabulary game, you put your vocabulary to the test against 
 ![405260402_737467174912070_3319209339918302056_n](https://github.com/Mattahouen1/Words/assets/152474434/cca1d434-3df8-49b6-b673-16c2faad19b8)
 
 
-
-(https://github.com/Mattahouen1/Words/assets/152474434/42f562ed-df7c-4f62-9d8d-bae0265ed36d)
-
 ## Accessibility
 If any players suffer from motor or visual impairments, that player must announce and spell aloud their word first when it becomes time to show your words.`
